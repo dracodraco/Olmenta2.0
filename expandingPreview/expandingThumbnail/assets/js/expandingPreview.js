@@ -344,7 +344,7 @@ var ExpandPreview = (function() {
 			// create Preview structure:
 			this.$title = $( '<h3></h3>' );
 			this.$description = $( '<p></p>' );
-			this.$href = $( '<a href="#">GO GET IT</a>' );
+			this.$href = $( '<a href="#" target="_blank">GO GET IT</a>' );
 			this.$details = $( '<div class="preview-details"></div>' ).append( this.$title, this.$description, this.$href );
 			this.$loading = $( '<div class="preview-loading"></div>' );
 			this.$fullimage = $( '<div class="preview-fullimg"></div>' ).append( this.$loading );
