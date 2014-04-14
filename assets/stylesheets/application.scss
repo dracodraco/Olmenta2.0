@@ -1,0 +1,23 @@
+@import 'normalize';
+@import 'furatto_overrides';
+@import "font-awesome";
+@import 'registrations';
+
+.footer {
+  margin-top: 60px;
+  background: #f8f8f8;
+  padding: 35px 0px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+
+  p {
+    color: #999;
+  }
+
+  .navigation.inline {
+      display: inline-block;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 0px
+  }
+}

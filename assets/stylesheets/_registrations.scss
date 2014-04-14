@@ -1,0 +1,13 @@
+.user-registration,
+.user-session {
+  width: 60%;
+  @extend %center-block;
+  @include max-screen(768px) {
+    width: 90%;
+  }
+}
+
+.user-registration-edit {
+  width: 90%;
+  @extend %center-block;
+}
