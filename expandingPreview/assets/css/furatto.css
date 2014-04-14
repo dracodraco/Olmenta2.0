@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Coda+Caption:800|Nova+Square|Megrim);
+@import url(http://fonts.googleapis.com/css?family=Iceberg);
 @font-face
 {
 	font-family: 'MeteoconsRegular';
@@ -1277,9 +1278,11 @@ h4
 }
 h1
 {
-	font-size: 57px;
-	font-family: 'Coda Caption', sans-serif;
+	font-size: 87px;
+	font-family: 'Iceberg', cursive;
 	font-weight:600;
+	letter-spacing: 15px;
+	margin-bottom: 25px;
 }
 h2
 {
