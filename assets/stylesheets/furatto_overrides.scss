@@ -1,1 +1,14 @@
-@import 'furatto';
+/** Styles for filters **/
+#tag-list li{
+  display: inline;
+}    
+#tag-list li a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+#tag-list li .active {
+  background: #484E68;
+  border-radius: 5px;
+  color: #FFF;
+}
+

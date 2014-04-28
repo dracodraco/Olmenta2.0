@@ -8,6 +8,9 @@
 		// create list of distinct items only
 		var classList = distinctList(classes);
 
+    //removes img class, the class is necessary for the expandingPreview 
+    classList.splice($.inArray('img', classList),1);
+
 		// generate the list of filter links
 		var tagList = '<ul id="tag-list"></ul>';
 		tagItem = '<li><a href="#" class="active">all</a></li>';
@@ -30,6 +33,7 @@
 		        $("#preview-grid li a img").fadeIn();
 		    } else {
 		        $("#preview-grid li a img").fadeOut();
+            $("#preview-grid li").css("margin", "0");
 		        $("#preview-grid li a img."+getText).fadeIn();
 		    }
 
