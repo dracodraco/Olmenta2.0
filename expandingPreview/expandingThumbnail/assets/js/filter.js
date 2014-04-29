@@ -31,10 +31,12 @@
 		    var getText = $(this).text().replace(" ", "-");
 		    if(getText == 'all'){
 		        $("#preview-grid li a img").fadeIn();
+            $("#preview-grid li a img").parents("li").css("display", "inline-block");
 		    } else {
 		        $("#preview-grid li a img").fadeOut();
-            $("#preview-grid li").css("margin", "0");
+            $("#preview-grid li a img").parents("li").css("display", "none");
 		        $("#preview-grid li a img."+getText).fadeIn();
+            $("#preview-grid li a img."+getText).parents("li").css("display", "inline-block");
 		    }
 
 		    // add class "active" to current filter item
