@@ -3,12 +3,12 @@
   display: inline;
 }    
 #tag-list li a {
+  color: #BBB;
   padding: 10px 20px;
   text-transform: uppercase;
 }
 #tag-list li .active {
-  background: #484E68;
+  color: #08c;
   border-radius: 5px;
-  color: #FFF;
 }
 
