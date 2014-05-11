@@ -1,4 +1,7 @@
 /** Styles for filters **/
+#tag-list {
+	text-align: center;
+}
 #tag-list li{
   display: inline;
 }    
