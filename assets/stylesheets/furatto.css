@@ -1210,8 +1210,9 @@ pre .string,pre .support.value
 p
 {
 	line-height: 1.6;
-	margin: 0 0 10px;
+	margin: 15px;
 	text-rendering: optimizeLegibility;
+	
 }
 em
 {
